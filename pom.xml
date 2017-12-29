@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.tap.vpos</groupId>
+	<artifactId>vpos-client</artifactId>
+	<version>1.0.0</version>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.6</maven.compiler.source>
+		<maven.compiler.target>1.6</maven.compiler.target>
+		<maven.test.skip>true</maven.test.skip>
+	</properties>
+	<dependencies>
+
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-client</artifactId>
+			<version>1.18</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.tap.vpos</groupId>
+			<artifactId>vpos-commons</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+	</dependencies>
+
+</project>
